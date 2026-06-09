@@ -1,4 +1,5 @@
 <!doctype html>
+
 <html lang="pt-BR">
     <head>
         <meta charset="UTF-8" />
@@ -6,195 +7,275 @@
             name="viewport"
             content="width=device-width, initial-scale=1.0"
         />
-        <title>Minha Landing Page</title>
+        <title>Gabriel Henrique | Desenvolvedor Full Stack</title>
         <link
             rel="stylesheet"
             href="style.css"
         />
     </head>
     <body>
-        <!doctype html>
-
-        <html lang="pt-BR">
-            <head>
-                <meta charset="UTF-8" />
-                <meta
-                    name="viewport"
-                    content="width=device-width, initial-scale=1.0"
+        <header id="inicio">
+            <div class="container">
+                <img
+                    src="https://images.pexels.com/photos/18066455/pexels-photo-18066455.jpeg"
+                    alt="Foto de Gabriel Henrique"
+                    class="foto-perfil"
                 />
-                <title>Gabriel Henrique | Desenvolvedor Full Stack</title>
-                <link
-                    rel="stylesheet"
-                    href="style.css"
-                />
-            </head>
-            <body>
-                <header id="inicio">
-                    <div class="container">
-                        <img
-                            src="https://images.pexels.com/photos/14030443/pexels-photo-14030443.jpeg"
-                            alt="Foto de perfil"
-                            class="foto-perfil"
-                        />
 
-                        <h1>Gabriel Henrique do Nascimento</h1>
+                <h1>Gabriel Henrique do Nascimento</h1>
 
-                        <p class="slogan">
-                            Desenvolvedor Full Stack em formação, transformando
-                            ideias em aplicações web modernas e funcionais.
-                        </p>
+                <p class="slogan">
+                    Desenvolvedor Full Stack em formação, transformando ideias
+                    em aplicações web modernas e funcionais.
+                </p>
 
-                        <nav>
+                <nav>
+                    <ul>
+                        <li><a href="#sobre">Sobre</a></li>
+                        <li><a href="#habilidades">Habilidades</a></li>
+                        <li><a href="#projetos">Projetos</a></li>
+                        <li><a href="#extras">Extras</a></li>
+                        <li><a href="#contato">Contato</a></li>
+                    </ul>
+                </nav>
+            </div>
+        </header>
+
+        <main>
+            <section id="sobre">
+                <div class="container">
+                    <h2>Sobre Mim</h2>
+
+                    <p>
+                        Sou estudante de Desenvolvimento Full Stack com foco no
+                        ecossistema JavaScript. Possuo conhecimentos em HTML,
+                        CSS, JavaScript, TypeScript, React, Node.js, Express e
+                        PostgreSQL.
+                    </p>
+
+                    <p>
+                        Tenho como objetivo desenvolver aplicações completas,
+                        desde a interface do usuário até a construção de APIs e
+                        integração com bancos de dados. Busco constantemente
+                        aprimorar minhas habilidades através de projetos
+                        práticos e estudo contínuo.
+                    </p>
+                </div>
+            </section>
+
+            <section id="habilidades">
+                <div class="container">
+                    <h2>Habilidades</h2>
+                    <p class="skills-text">
+                        Tecnologias que venho estudando e aplicando em projetos
+                        práticos para desenvolvimento de aplicações web
+                        modernas.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="card">
+                            <h3>Front-End</h3>
                             <ul>
-                                <li><a href="#sobre">Sobre</a></li>
-                                <li><a href="#habilidades">Habilidades</a></li>
-                                <li><a href="#projetos">Projetos</a></li>
-                                <li><a href="#extras">Extras</a></li>
-                                <li><a href="#contato">Contato</a></li>
+                                <li>HTML5</li>
+                                <li>CSS3</li>
+                                <li>JavaScript</li>
+                                <li>TypeScript</li>
+                                <li>React</li>
                             </ul>
-                        </nav>
-                    </div>
-                </header>
-
-                <main>
-                    <section id="sobre">
-                        <div class="container">
-                            <h2>Sobre Mim</h2>
-
-                            <p>
-                                Sou estudante de Desenvolvimento Full Stack com
-                                foco no ecossistema JavaScript. Tenho
-                                experiência com HTML, CSS, JavaScript, React,
-                                Node.js, Express e PostgreSQL.
-                            </p>
-
-                            <p>
-                                Busco constantemente aprimorar meus
-                                conhecimentos por meio de projetos práticos,
-                                sempre seguindo uma abordagem organizada baseada
-                                em planejamento, desenvolvimento, testes e
-                                melhoria contínua.
-                            </p>
                         </div>
-                    </section>
 
-                    <section id="habilidades">
-                        <div class="container">
-                            <h2>Habilidades</h2>
+                        <div class="card">
+                            <h3>Back-End</h3>
+                            <ul>
+                                <li>Node.js</li>
+                                <li>Express.js</li>
+                                <li>APIs REST</li>
+                                <li>JWT</li>
+                            </ul>
+                        </div>
 
-                            <div class="skills-grid">
-                                <div class="card">
-                                    <h3>Front-End</h3>
-                                    <ul>
-                                        <li>HTML5</li>
-                                        <li>CSS3</li>
-                                        <li>JavaScript</li>
-                                        <li>TypeScript</li>
-                                        <li>React</li>
-                                    </ul>
+                        <div class="card">
+                            <h3>Banco de Dados</h3>
+                            <ul>
+                                <li>PostgreSQL</li>
+                                <li>Prisma ORM</li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+            <section id="projetos">
+                <div class="container">
+                    <h2>Projetos</h2>
+
+                    <div class="projetos-grid">
+                        <article class="projeto-card">
+                            <img
+                                src="img/delivery.png"
+                                alt="Sistema Fast Food"
+                                class="projeto-img"
+                            />
+
+                            <div class="projeto-content">
+                                <h3>Sistema de Fast Food</h3>
+                                <h4>Em Desenvolvimento</h4>
+                                <p>
+                                    Projeto conceitual de uma aplicação Full
+                                    Stack para gerenciamento de pedidos online,
+                                    cardápio digital, autenticação de usuários e
+                                    painel administrativo.
+                                </p>
+
+                                <div class="techs">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>Express</span>
+                                    <span>PostgreSQL</span>
                                 </div>
 
-                                <div class="card">
-                                    <h3>Back-End</h3>
-                                    <ul>
-                                        <li>Node.js</li>
-                                        <li>Express.js</li>
-                                        <li>APIs REST</li>
-                                        <li>JWT</li>
-                                    </ul>
-                                </div>
-
-                                <div class="card">
-                                    <h3>Banco de Dados</h3>
-                                    <ul>
-                                        <li>PostgreSQL</li>
-                                        <li>Prisma ORM</li>
-                                    </ul>
+                                <div class="projeto-links">
+                                    <a
+                                        href="https://delivery-marketplace-bay.vercel.app/"
+                                        target="_blank"
+                                        >Demo</a
+                                    >
+                                    <a
+                                        href="https://github.com/Gabriel-Nasciment0/delivery_marketplace"
+                                        target="_blank"
+                                        >GitHub</a
+                                    >
                                 </div>
                             </div>
-                        </div>
-                    </section>
+                        </article>
 
-                    <section id="projetos">
-                        <div class="container">
-                            <h2>Projetos</h2>
+                        <article class="projeto-card">
+                            <img
+                                src="img/TodoList.png"
+                                alt="Gerenciador de Tarefas"
+                                class="projeto-img"
+                            />
 
-                            <div class="projetos-grid">
-                                <article class="card">
-                                    <h3>Sistema de Fast Food</h3>
+                            <div class="projeto-content">
+                                <h3>Gerenciador de Tarefas</h3>
 
-                                    <p>
-                                        Aplicação Full Stack para gerenciamento
-                                        de pedidos, cardápio digital,
-                                        autenticação de usuários e painel
-                                        administrativo.
-                                    </p>
-                                </article>
+                                <p>
+                                    Sistema web para criação, organização e
+                                    acompanhamento de tarefas com autenticação e
+                                    banco de dados.
+                                </p>
 
-                                <article class="card">
-                                    <h3>Gerenciador de Tarefas</h3>
+                                <div class="techs">
+                                    <span>React</span>
+                                    <span>Node.js</span>
+                                    <span>PostgreSQL</span>
+                                </div>
 
-                                    <p>
-                                        Sistema web para criação, organização e
-                                        acompanhamento de tarefas com
-                                        autenticação e banco de dados.
-                                    </p>
-                                </article>
-
-                                <article class="card">
-                                    <h3>Pokedex</h3>
-
-                                    <p>
-                                        Aplicação web desenvolvida com foco no
-                                        consumo de APIs e manipulação dinâmica
-                                        de dados. A Pokédex permite pesquisar
-                                        Pokémon, exibir informações detalhadas,
-                                        imagens, tipos, proporcionando uma
-                                        experiência interativa e responsiva para
-                                        o usuário.
-                                    </p>
-                                </article>
+                                <div class="projeto-links">
+                                    <a
+                                        href="https://gabriel-nasciment0.github.io/todo-list-site/"
+                                        target="_blank"
+                                        >Demo</a
+                                    >
+                                    <a
+                                        href="https://github.com/Gabriel-Nasciment0/todo-list-site"
+                                        target="_blank"
+                                        >GitHub</a
+                                    >
+                                </div>
                             </div>
-                        </div>
-                    </section>
+                        </article>
 
-                    <aside id="extras">
-                        <div class="container">
-                            <h2>Informações Extras</h2>
+                        <article class="projeto-card">
+                            <img
+                                src="img/Pokedex.png"
+                                alt="Pokédex"
+                                class="projeto-img"
+                            />
 
-                            <p>
-                                Além da programação, gosto de estudar novas
-                                tecnologias, desenvolver projetos para aprimorar
-                                minhas habilidades e acompanhar tendências do
-                                mercado de software.
-                            </p>
+                            <div class="projeto-content">
+                                <h3>Pokédex Interativa</h3>
 
-                            <h3>Hobbies</h3>
+                                <p>
+                                    Aplicação web desenvolvida com foco no
+                                    consumo de APIs e manipulação dinâmica de
+                                    dados. Permite pesquisar Pokémon, visualizar
+                                    informações detalhadas, imagens e tipos em
+                                    tempo real.
+                                </p>
 
-                            <ul>
-                                <li>Desenvolvimento de projetos pessoais</li>
-                                <li>Tecnologia</li>
-                                <li>Jogos</li>
-                                <li>Aprendizado contínuo</li>
-                            </ul>
+                                <div class="techs">
+                                    <span>HTML</span>
+                                    <span>CSS</span>
+                                    <span>JavaScript</span>
+                                    <span>PokéAPI</span>
+                                </div>
 
-                            <h3>Links</h3>
-
-                            <ul>
-                                <li>GitHub</li>
-                                <li>LinkedIn</li>
-                            </ul>
-                        </div>
-                    </aside>
-                </main>
-
-                <footer id="contato">
-                    <div class="container">
-                        <p>Email: seuemail@email.com</p>
-                        <p>© 2026 Gabriel Henrique do Nascimento</p>
+                                <div class="projeto-links">
+                                    <a
+                                        href="https://gabriel-nasciment0.github.io/pokedex/"
+                                        target="_blank"
+                                        >Demo</a
+                                    >
+                                    <a
+                                        href="https://github.com/Gabriel-Nasciment0/pokedex"
+                                        target="_blank"
+                                        >GitHub</a
+                                    >
+                                </div>
+                            </div>
+                        </article>
                     </div>
-                </footer>
-            </body>
-        </html>
+                </div>
+            </section>
+
+            <aside id="extras">
+                <div class="container">
+                    <h2>Informações Extras</h2>
+
+                    <p>
+                        Além da programação, gosto de estudar novas tecnologias,
+                        desenvolver projetos para aprimorar minhas habilidades e
+                        acompanhar tendências do mercado de software.
+                    </p>
+
+                    <h3>Hobbies</h3>
+
+                    <ul>
+                        <li>Desenvolvimento de projetos pessoais</li>
+                        <li>Tecnologia</li>
+                        <li>Jogos</li>
+                        <li>Aprendizado contínuo</li>
+                    </ul>
+
+                    <h3>Links</h3>
+
+                    <ul>
+                        <li>
+                            <a
+                                href="https://github.com/Gabriel-Nasciment0"
+                                target="_blank"
+                            >
+                                GitHub
+                            </a>
+                        </li>
+                    </ul>
+                </div>
+            </aside>
+        </main>
+
+        <footer id="contato">
+            <div class="container">
+                <p>Email: gabrielhenrique4004@gmail.com</p>
+
+                <p>
+                    GitHub:
+                    <a href="https://github.com/Gabriel-Nasciment0">
+                        github.com/Gabriel-Nasciment0
+                    </a>
+                </p>
+
+                <p>© 2026 Gabriel Henrique do Nascimento</p>
+            </div>
+        </footer>
     </body>
 </html>
