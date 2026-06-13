@@ -6,7 +6,8 @@
 }
 html {
     scroll-behavior: smooth;
-} /* GERAL */
+}
+/* GERAL */
 body {
     font-family: Arial, Helvetica, sans-serif;
     background-color: #f4f7fb;
@@ -17,7 +18,8 @@ body {
     width: 90%;
     max-width: 1100px;
     margin: 0 auto;
-} /* HEADER */
+}
+/* HEADER */
 header {
     background: linear-gradient(135deg, #0f172a, #1e40af);
     color: white;
@@ -40,7 +42,8 @@ header h1 {
     max-width: 700px;
     margin: 0 auto;
     font-size: 1.1rem;
-} /* NAVEGAÇÃO */
+}
+/* NAVEGAÇÃO */
 nav ul {
     list-style: none;
     display: flex;
@@ -58,7 +61,8 @@ nav a {
 nav a:hover {
     color: #93c5fd;
     text-decoration: underline;
-} /* SEÇÕES */
+}
+/* SEÇÕES */
 section,
 aside {
     padding: 80px 0;
@@ -68,12 +72,14 @@ h2 {
     font-size: 2rem;
     margin-bottom: 30px;
     color: #0f172a;
-} /* SOBRE */
+}
+/* SOBRE */
 #sobre p {
     max-width: 850px;
     margin: 15px auto;
     text-align: center;
-} /* HABILIDADES */
+}
+/* HABILIDADES */
 .skills-text {
     text-align: center;
     max-width: 700px;
@@ -102,7 +108,8 @@ h2 {
 }
 .card li {
     margin-bottom: 8px;
-} /* PROJETOS */
+}
+/* PROJETOS */
 .projetos-grid {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(320px, 1fr));
@@ -135,7 +142,8 @@ h2 {
 .projeto-content p {
     margin-bottom: 1rem;
     color: #555;
-} /* TAGS DE TECNOLOGIAS */
+}
+/* TAGS DE TECNOLOGIAS */
 .techs {
     display: flex;
     flex-wrap: wrap;
@@ -149,7 +157,8 @@ h2 {
     border-radius: 999px;
     font-size: 0.8rem;
     font-weight: bold;
-} /* BOTÕES */
+}
+/* BOTÕES */
 .projeto-links {
     display: flex;
     gap: 1rem;
@@ -171,7 +180,8 @@ h2 {
 }
 .projeto-links a:hover {
     transform: scale(1.05);
-} /* ASIDE */
+}
+/* ASIDE */
 aside {
     background-color: #e8eef9;
     border-top: 1px solid #dbeafe;
@@ -200,7 +210,8 @@ aside a {
 }
 aside a:hover {
     text-decoration: underline;
-} /* FOOTER */
+}
+/* FOOTER */
 footer {
     background-color: #0f172a;
     color: white;
